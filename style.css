@@ -153,8 +153,16 @@ i.icon {
     padding: .75em 0;
 }
 
+ul {
+    margin-left: 1em;
+}
+
 li {
-    padding-left: 2em;
+    padding-left: 0.5em;
     padding-top: 0.5em 
 
+}
+
+.haha {
+    color: #60869f
 }
