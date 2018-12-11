@@ -132,3 +132,29 @@ i.icon {
 .info .date {
     font-family: 'Gill Sans Italic';
 }
+
+.info .company,
+.info .location {
+    font-weight: lighter;
+    color: #555555;
+}
+
+.tags span {
+    background-color: #555555;
+    color: #eeeeee;
+    padding: 5px;
+    padding-top: 8px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.tools, .summary {
+    color: #003553;
+    padding: .75em 0;
+}
+
+li {
+    padding-left: 2em;
+    padding-top: 0.5em 
+
+}
