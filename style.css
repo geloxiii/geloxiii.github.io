@@ -42,6 +42,10 @@
     font-size: 1em;
 }
 
+body {
+    font-size: 1em;
+}
+
 .background {
     background-color: #222222;
 }
@@ -146,6 +150,7 @@ i.icon {
     padding-top: 8px;
     font-weight: bold;
     display: inline-block;
+    margin-bottom: 10px;
 }
 
 .tools, .summary {
