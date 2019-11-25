@@ -38,7 +38,7 @@
     font-family:'Gill Sans Regular';
     margin: 0; 
     padding: 0;
-    color: #222222;
+    color: #eaeaea;
     font-size: 1em;
 }
 
@@ -47,11 +47,11 @@ body {
 }
 
 .background {
-    background-color: #222222;
+    background-color: #020101;
 }
 
 .about {
-    background-color: #ffffff;
+    background-color: #333333;
     padding-left: 72px;
     padding-top: 64px;
     width: 100%;
@@ -89,6 +89,7 @@ body {
 }
 i.icon {
     line-height: 1.5em;
+    color: #0065ff;
 }
 
 .contacts-info {
@@ -102,9 +103,8 @@ i.icon {
     padding-left: 1em;
 }
 
-.contacts-info .left,
-.contacts-info .right {
-    width: 40%;
+i.icon {
+    width: 30px;
 }
 
 .info {
@@ -113,7 +113,7 @@ i.icon {
 }
 
 .info .title {
-    color: #004aba;
+    color: #6599e8;;
     font-size: 1.5em;
     padding: .25em 0;
 }
@@ -128,7 +128,7 @@ i.icon {
 }
 
 .info .icon {
-    color: #004aba;
+    color: #0065ff;;;
     display: block;
     padding-bottom: 11px;
 }
@@ -140,7 +140,7 @@ i.icon {
 .info .company,
 .info .location {
     font-weight: lighter;
-    color: #555555;
+    color: #c8c8c8;
 }
 
 .tags span {
@@ -154,8 +154,13 @@ i.icon {
 }
 
 .tools, .summary {
-    color: #003553;
+    color: #33b5ff;
     padding: .75em 0;
+}
+
+.info .proj {
+    padding-bottom: 5px;
+    display: inline-block;
 }
 
 ul {
