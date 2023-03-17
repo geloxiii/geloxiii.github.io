@@ -93,19 +93,19 @@ header .info {
     padding-right: 24px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (min-width: 320px) {
+    .header {
+        height: 220px;
+    }
+}
+@media only screen and (min-width: 480px) {
     .header {
         height: 200px;
     }
 }
-@media only screen and (max-width: 550px) and (min-width: 400px) {
+@media only screen and (min-width: 600px)  and (max-width: 640px){
     .header {
-        height: 160px;
-    }
-}
-@media only screen and (max-width: 600px) and (min-width: 550px) {
-    .header {
-        height: 140px;
+        height: 180px;
     }
     .header nav {
         margin-top: -28px;
@@ -119,7 +119,7 @@ header .info {
     }
 
 }
-    @media only screen and (max-width: 672px) {
+    @media only screen and (max-width: 640px) {
     .blog {
         max-width: 90%;
     }
