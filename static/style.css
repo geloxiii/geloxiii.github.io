@@ -53,6 +53,7 @@ header .info {
     display: inline-block;
     width: 100%;
     margin-top: 12px;
+    padding-bottom: 12px;
 }
 
 .header h1 {
@@ -177,7 +178,8 @@ code {
 .blog h3, 
 .blog p, 
 .blog a,
-.blog li
+.blog li,
+.blog span
 {
     color: #eaeaea;
     font-family: Montserrat;
@@ -257,4 +259,16 @@ code {
 .blog img {
     max-width: 480px;
     max-width: 100%;
+}
+
+
+.blog .book-name {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.blog .book-author {
+    font-weight: 400;
+    font-size: 14px;
+    /* font-style: italic;/ */
 }
